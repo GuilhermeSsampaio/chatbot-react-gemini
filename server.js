@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 require("dotenv").config();
 
+
 const safetySettings = [
   {
     category: HarmCategory.HARM_CATEGORY_HARASSMENT,
